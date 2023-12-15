@@ -8,6 +8,14 @@ package abstract_00;
  *
  * @author Aj Cervantes
  */
-public class main {
-    
+public abstract class main {
+     public static void main(String[] args) {
+        dog dog = new dog("name: kuba");
+        cat cat = new cat("name: freya");
+ 
+        
+        dog.Color();
+        cat.Color();
+    }
+
 }

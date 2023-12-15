@@ -8,6 +8,6 @@ package abstract_00;
  *
  * @author Aj Cervantes
  */
-public class pet {
-    
+public abstract class pet {
+     public abstract void Color();
 }
