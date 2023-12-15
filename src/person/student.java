@@ -1,13 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package person;
 
 /**
  *
  * @author Aj Cervantes
  */
-public class student {
+class student extends person {
     
+    private String major;
+
+    public student(String name, int yearOfBirth, String major) {
+        
+        //kining super is ayha rana magamit og nag extend ka sa uban nga class
+        super(name, yearOfBirth);
+        this.major = major;
+    }
+
+    // Getter and setter methods for major
+    public String getMajor() {
+        return major;
+    }
+    
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    // toString method
+    public String toString() {
+        return "Student [name=" + getName() + ", yearOfBirth=" + getYearOfBirth() + ", major=" + major + "]";
+    }
 }
