@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package student;
 
 /**
@@ -9,5 +5,17 @@ package student;
  * @author Aj Cervantes
  */
 public class student {
+     String name;
+    String section;
+    String motto;
     
+    public String getName(){
+        return name;
+    }
+     public String setSection(){
+        return "IT21C";
+     }
+      public String getMotto(){
+        return "Pag dimo kaya pagawa mo sa iba";
+}
 }

@@ -1,13 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package student;
 
-/**
- *
- * @author Aj Cervantes
- */
 public class main {
-    
+     public static void main(String[]args){
+        student student = new student();
+        
+        student.name = "Annalyn Jean M. Cervantes";
+        student.section = student.setSection();
+        student.motto = student.getMotto();
+        
+        System.out.println(student.name);
+        System.out.println(student.section);
+        System.out.println(student.motto);
+}
 }
