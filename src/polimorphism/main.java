@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package polimorphism;
 
-/**
- *
- * @author Aj Cervantes
- */
 public class main {
     
+    public static void main(String[]args){
+        
+       pet pet = new pet(" cat, rabbit and dog");
+       dog dog = new dog(" iro"); 
+       cat cat = new cat(" Inky");
+        
+        //local methods
+        pet.chill();
+        dog.chill();
+        cat.chill();
+        
+    }
 }

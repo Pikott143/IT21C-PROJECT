@@ -1,13 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package polimorphism;
 
-/**
- *
- * @author Aj Cervantes
- */
 public class pet {
+
     
+     String name;
+    
+ pet(String name){
+      
+   this.name = name;   
+       
+  } 
+  
+ void purring(){
+     System.out.println(name + "is purring");
+     
+ } 
+  
+void chill(){
+     System.out.println("ga pa chill sila" + name);
+     
+}
 }

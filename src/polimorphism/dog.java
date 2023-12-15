@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package polimorphism;
 
-/**
- *
- * @author Aj Cervantes
- */
-public class dog {
+  public class dog extends pet {
     
+    dog(String name){
+    super(name); 
+    
+}
+    
+public void chill(){
+    System.out.println("ga chill2 akong" + name);
+
+}
 }
